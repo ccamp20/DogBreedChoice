@@ -24,5 +24,7 @@ class Main {
     for (int currentAge = 20; age > 14; responsibility = true) {
       System.out.print("You can get two dogs");
     }
+
+    //this code states the fact that if the person is over 14 years old they can get 2 dogs.
   }
   } 
