@@ -19,5 +19,10 @@ class Main {
   }
     //this code is including the types of dogs that the kid can get dependent on their age and if they would play with it or not.
 
+    boolean responsibility = true;
+
+    for (int currentAge = 20; age > 14; responsibility = true) {
+      System.out.print("You can get two dogs");
+    }
   }
   } 
