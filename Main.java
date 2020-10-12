@@ -1,9 +1,10 @@
+import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
     int age = 8;
     while(age <= 11)
     {
-      System.out.print("You can't get a dog.");
+      System.out.println("You can't get a dog.");
       age++;
     }
 
@@ -12,7 +13,7 @@ class Main {
     boolean wantsToPlay = true;
 
     if(wantsToPlay = true && age > 11) {
-      System.out.print("You can get a Golden Retriever");
+      System.out.println("You can get a Golden Retriever" );
     }
   else if(age > 11 && wantsToPlay == false) {
       System.out.print("You can get a pug.");
@@ -26,5 +27,15 @@ class Main {
     }
 
     //this code states the fact that if the person is over 14 years old they can get 2 dogs.
+
+    Scanner Scan = new Scanner(System.in);
+    System.out.println("What should I name the dog?");
+    String name = Scan.next();
+
+    System.out.print("Thank you for your input :)");
+
+    //the scanner asks the user what the dog's name should be
+    
+  
   }
   } 
